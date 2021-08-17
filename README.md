@@ -1,1 +1,3 @@
 # Proyecto-MVC-comercio
+Voy a crear una web interactiva con el lenguaje de programación C# utilizando la tecnología ASP.NET Core MVC, patrón Modelo-Vista-Controlador.
+La idea es crear una tienda online con base de datos, recursos para usuarios y administrador, formulario de contacto, página "home", carrito de compra...
