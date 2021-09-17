@@ -37,6 +37,9 @@ namespace MvcComercio
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            //Registramos el contexto de la base de datos
+            services.AddDbContext<MvcComercioContexto>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
