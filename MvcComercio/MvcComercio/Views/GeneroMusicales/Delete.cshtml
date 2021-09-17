@@ -20,8 +20,9 @@
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.ImagenGenero)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImagenGenero)
+        <dd class="col-sm-10">
+            @*@Html.DisplayFor(model => model.ImagenGenero)*@
+            <img src="~/images/@Model.ImagenGenero" alt="Alternate Text" />
         </dd>
     </dl>
     
